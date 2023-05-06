@@ -36,11 +36,21 @@ html {
       rgba(255, 50, 50, 0.066),
       transparent 400px
     ) !important; */
-  background-image: radial-gradient(
-    circle 993px at 0.5% 50.5%,
-    rgba(137, 171, 245, 0.105) 0%,
-    rgba(245, 247, 252, 0.322) 100.2%
-  );
+  background-image: linear-gradient(
+      35deg,
+      rgba(223, 227, 237, 0.066) 33%,
+      rgba(232, 178, 117, 0.078) 100%
+    ),
+    radial-gradient(
+      farthest-corner at top right,
+      rgba(255, 50, 50, 0.066),
+      transparent 400px
+    ),
+    radial-gradient(
+      circle 993px at 0.5% 50.5%,
+      rgba(137, 171, 245, 0.144) 0%,
+      rgba(245, 247, 252, 0.614) 100.2%
+    );
 }
 body {
   font-family: "Poppins", sans-serif;
