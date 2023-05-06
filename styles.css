@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap");
+:root {
+  --base_color: #de5fbf;
+  --white: #ffffff;
+  --black: #111111;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 1rem 10rem;
+}
+
+.title_font {
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 3rem;
+}
+
+html {
+  /* background: linear-gradient(
+      35deg,
+      rgba(223, 227, 237, 0.066) 33%,
+      rgba(232, 178, 117, 0.078) 100%
+    ),
+    radial-gradient(farthest-side at top left, #c580fd15, transparent),
+    radial-gradient(
+      farthest-corner at top right,
+      rgba(255, 50, 50, 0.066),
+      transparent 400px
+    ) !important; */
+  background-image: radial-gradient(
+    circle 993px at 0.5% 50.5%,
+    rgba(137, 171, 245, 0.105) 0%,
+    rgba(245, 247, 252, 0.322) 100.2%
+  );
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  height: 4rem;
+  position: sticky;
+  display: flex;
+  background: #ffffff;
+  padding: 0 50px;
+  top: 0;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo > h1 {
+  font-size: 1rem;
+}
+nav > ul {
+  display: flex;
+}
+nav > ul > li {
+  list-style: none;
+}
+nav > ul > li > a {
+  padding: 0 0.8rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.main__landing {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main__landing_desc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.main__landing_desc p {
+  font-size: 0.8rem;
+}
+.main__landing_buttons {
+  margin: 3rem 0 0 0;
+}
+.main__landing_buttons > a {
+  text-decoration: none;
+  background-color: var(--base_color);
+  color: var(--white);
+  border-radius: 20px;
+  padding: 1rem 2rem;
+}
+.main__landing_image > img {
+  width: 30rem;
+}
+
+.about_us_main {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.about_us_main > .left {
+  width: 20%;
+  /* text-align: center; */
+}
+.about_us_main > .right {
+  width: 60%;
+  text-align: justify;
+}
+.about_us_main > .right > p {
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+}
+footer > p {
+  font-size: 14px;
+}
+
+.circle {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  border: 12px solid #f696ff10;
+  position: absolute;
+  z-index: -1;
+  top: 8rem;
+  left: 4rem;
+}
+.art {
+  position: absolute;
+  z-index: -5;
+  top: 7rem;
+}
+.art > img {
+  width: 60rem;
+  opacity: 0.03;
+}
