@@ -101,8 +101,17 @@ nav > ul > li > a {
   font-family: "Averia Serif Libre", cursive;
   margin-bottom: 0.5rem;
 }
+.main__landing_desc > h1 > span {
+  font-family: "Averia Serif Libre", cursive;
+  color: var(--base_color);
+}
 .main__landing_desc p {
   font-size: 0.8rem;
+}
+.main__landing_desc > p > span {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #4c3fff;
 }
 .main__landing_buttons {
   margin: 3rem 0 0 0;
