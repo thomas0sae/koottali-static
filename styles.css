@@ -120,17 +120,20 @@ nav > ul > li > a {
 
 .about_us_main {
   padding: 60px 0 70px 0;
+
+  margin-bottom: 4rem;
   display: flex;
+
   /* justify-content: space-around; */
   justify-content: space-between;
   align-items: center;
 }
 .about_us_main > .left {
-  width: 20%;
+  width: 40%;
   /* text-align: center; */
 }
 .about_us_main > .right {
-  width: 60%;
+  width: 50%;
   text-align: justify;
 }
 .about_us_main > .right > p {
@@ -152,7 +155,7 @@ nav > ul > li > a {
   display: flex;
   /* justify-content: space-around; */
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 .join_us > .left {
   width: 40%;
@@ -175,8 +178,37 @@ nav > ul > li > a {
   padding: 1rem 3rem;
   font-size: 1rem;
 }
+.testimonials_main {
+  background-color: var(--black);
+  color: var(--white);
+}
+.testimonials {
+  padding: 120px 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonials > .right {
+  width: 60%;
+}
+.testimonials > .right > .cards_scrollable {
+  width: 100%;
+  overflow-x: scroll !important;
+  display: flex;
+  column-gap: 1rem;
+}
+.testimonials > .right > .cards_scrollable > .card {
+  background-color: var(--white);
+  min-width: 29rem !important;
+  height: 20rem;
+  border-radius: 20px;
+}
+.cards_scrollable::-webkit-scrollbar {
+  display: none;
+}
 .extra_container {
-  height: 50rem;
+  height: 10rem;
 }
 .circle {
   width: 12rem;
@@ -223,7 +255,7 @@ footer > .links > ul > li > a {
 .art2 {
   position: absolute;
   z-index: -5;
-  top: 55rem;
+  top: 90rem;
   right: 12rem;
 }
 .art2 > img {
