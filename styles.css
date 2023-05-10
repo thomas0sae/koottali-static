@@ -74,7 +74,7 @@ nav {
 .logo > h1 {
   font-size: 1rem;
 }
-nav > ul {
+/* nav > ul {
   display: flex;
 }
 nav > ul > li {
@@ -85,7 +85,7 @@ nav > ul > li > a {
   font-size: 0.8rem;
   text-decoration: none;
   color: var(--black);
-}
+} */
 
 .main__landing {
   padding: 50px 0 20px 0;
@@ -489,5 +489,65 @@ footer > .links > ul > li > a {
   footer > .links > ul > li > a {
     color: var(--black);
     font-size: 0.8;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+.nav-bar ul li a {
+  display: block;
+  padding: 10px 25px;
+  margin: 0 5px;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger .line {
+    width: 20px;
+    height: 1.6px;
+    background: #111111;
+    margin: 5px 0;
+  }
+  .nav-bar {
+    height: 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #ffffff;
+    transition: 0.8s;
+    overflow: hidden;
+  }
+  .nav-bar.active {
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 60px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .nav-bar ul li a {
+    display: block;
+    padding: 10px 25px;
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  .nav-bar.active ul {
+    opacity: 1;
   }
 }

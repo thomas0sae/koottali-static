@@ -20,11 +20,18 @@
         <div class="logo">
           <h1>Koottali.</h1>
         </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="/koottali/index.html">Koottali</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/koottali/index.html">Koottali</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -33,7 +40,11 @@
           <h1 class="title_font">Stay Tuned.</h1>
           <h1 class="title_font">Koottali is <span> coming soon! </span></h1>
           <p>
-            With Koottali(English: Companion) , we're revolutionizing the way people connect and find love. Our app is designed with a focus on meaningful connections, where we believe that true compatibility goes beyond just swiping left or right on a few photos.
+            With Koottali <span>(English: Companion)</span>, we're
+            revolutionizing the way people connect and find love. Our app is
+            designed with a focus on meaningful connections, where we believe
+            that true compatibility goes beyond just swiping left or right on a
+            few photos.
           </p>
           <div class="social">
             <ul>
@@ -83,5 +94,13 @@
         </ul>
       </div>
     </footer>
+
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      };
+    </script>
   </body>
 </html>
