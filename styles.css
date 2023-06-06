@@ -117,12 +117,25 @@ nav > ul > li > a {
 .main__landing_buttons {
   margin: 3rem 0 0 0;
 }
-.main__landing_buttons > a {
+.main__landing_buttons > button {
   text-decoration: none;
-  background-color: var(--base_color);
+  /* background-color: var(--base_color); */
+  background-color: #282828;
   color: var(--white);
   border-radius: 20px;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1.6rem;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.main__landing_buttons > button > a {
+  text-decoration: none;
+  margin: 0 !important;
+  color: var(--white);
+  border-radius: 20px;
+  padding: 0.6rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .main__landing_image > img {
   width: 32rem;
