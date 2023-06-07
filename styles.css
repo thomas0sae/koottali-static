@@ -116,9 +116,14 @@ nav > ul > li > a {
 }
 .main__landing_buttons {
   margin: 3rem 0 0 0;
+  display: flex;
+  align-items: center;
 }
 .main__landing_buttons > button {
   text-decoration: none;
+  width: 15rem;
+  height: 4rem;
+  margin: 0.2rem;
   /* background-color: var(--base_color); */
   background-color: #282828;
   color: var(--white);
@@ -127,6 +132,7 @@ nav > ul > li > a {
   border: none;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .main__landing_buttons > button > a {
   text-decoration: none;
@@ -341,6 +347,33 @@ footer > .links > ul > li > a {
   }
   .main__landing_buttons {
     margin: 2rem 0 0 0;
+    flex-direction: column;
+  }
+  .main__landing_buttons > button {
+    text-decoration: none;
+    width: 15rem;
+    height: 4rem;
+    margin: 0.2rem;
+    /* background-color: var(--base_color); */
+    background-color: #282828;
+    color: var(--white);
+    border-radius: 20px;
+    padding: 0.5rem 1.6rem;
+    border: none;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main__landing_buttons > button > a {
+    text-decoration: none;
+    margin: 0 !important;
+    color: var(--white);
+    border-radius: 20px;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
   }
   .main__landing_buttons > a {
     text-decoration: none;
