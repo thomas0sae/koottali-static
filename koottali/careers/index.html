@@ -1,140 +1,153 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Koottali - careers</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f1f1f1;
-        margin: 0;
-        padding: 0;
-      }
 
+<head>
+  <title>Koottali - careers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 0;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 30px;
+    }
+
+    p {
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    form {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+    }
+
+    textarea {
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .contact {
+      margin-top: 30px;
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
       .container {
-        max-width: 600px;
-        margin: 2rem auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-
-      h1 {
-        color: #333;
-        margin-top: 0;
-      }
-
-      h2 {
-        color: #333;
-        margin-top: 30px;
-      }
-
-      p {
-        color: #777;
-        margin-bottom: 10px;
-      }
-
-      form {
-        margin-top: 20px;
-        text-align: left;
-      }
-
-      label {
-        display: block;
-        margin-bottom: 8px;
-        color: #333;
-      }
-
-      input[type="text"],
-      input[type="email"] {
-        width: 95%;
+        height: 100vh;
         padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 3px;
+        margin: 0 auto;
+        border-radius: 0;
       }
-      select {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 3px;
-      }
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9LKZ0B57Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      textarea {
-        width: 95%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 3px;
-      }
+    gtag('config', 'G-Z9LKZ0B57Y');
+  </script>
+</head>
 
-      input[type="submit"] {
-        background-color: #4caf50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-      }
+<body>
+  <div class="container">
+    <h1>We're Hiring!</h1>
 
-      .contact {
-        margin-top: 30px;
-      }
+    <h2>Job Openings</h2>
+    <p>Select the position you are interested in:</p>
 
-      a {
-        color: #333;
-        text-decoration: none;
-      }
+    <form action="mailto:" method="post" enctype="text/plain">
+      <label for="position">Position:</label>
+      <select name="position" id="position">
+        <option value="web-developer">Web Developer</option>
+        <option value="graphic-designer">Graphic Designer</option>
+        <option value="content-creator">Content Creator</option>
 
-      @media (max-width: 600px) {
-        .container {
-          height: 100vh;
-          padding: 10px;
-          margin: 0 auto;
-          border-radius: 0;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>We're Hiring!</h1>
+        <!-- Add more options for different positions -->
+      </select>
 
-      <h2>Job Openings</h2>
-      <p>Select the position you are interested in:</p>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required />
 
-      <form action="mailto:" method="post" enctype="text/plain">
-        <label for="position">Position:</label>
-        <select name="position" id="position">
-          <option value="web-developer">Web Developer</option>
-          <option value="graphic-designer">Graphic Designer</option>
-          <option value="content-creator">Content Creator</option>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required />
 
-          <!-- Add more options for different positions -->
-        </select>
+      <label for="resume">Resume:</label>
+      <input type="file" name="resume" id="resume" />
 
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required />
+      <label for="cover-letter">Cover Letter:</label>
+      <textarea name="cover-letter" id="cover-letter" rows="4"></textarea>
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required />
+      <input type="submit" value="Apply Now" />
+    </form>
 
-        <label for="resume">Resume:</label>
-        <input type="file" name="resume" id="resume" />
-
-        <label for="cover-letter">Cover Letter:</label>
-        <textarea name="cover-letter" id="cover-letter" rows="4"></textarea>
-
-        <input type="submit" value="Apply Now" />
-      </form>
-
-      <div class="contact">
-        <h2>Contact Us</h2>
-        <p>
-          If you have any questions or need further information, please reach
-          out to us:
-        </p>
-        <p>Email: <a href="mailto:"></a></p>
-      </div>
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or need further information, please reach
+        out to us:
+      </p>
+      <p>Email: <a href="mailto:"></a></p>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
