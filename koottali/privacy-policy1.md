@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Privacy Policy
 permalink: /koottali/privacy-policy1/
 comments: false
