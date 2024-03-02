@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+title: Home
+layout: default
+background: '/img/bg-index.jpg'
+---
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EmWAVE</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="styles.css" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z9LKZ0B57Y"></script>
   <script>
@@ -19,199 +16,58 @@
   </script>
 </head>
 
-<body>
-  <div class="art"><img src="assets/images/art.png" alt="" /></div>
-  <div class="art2"><img src="assets/images/w.png" alt="" /></div>
-  <header>
-    <nav>
-      <div class="logo" style="display: flex; justify-content: center">
-        <img style="width: 7rem" src="/assets/images/main.svg" alt="" />
-        <!-- <h1>EmWAVE.</h1> -->
-      </div>
-      <div class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-      <div class="nav-bar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <!-- <li><a href="#">About</a></li> -->
-          <li><a href="/koottali/index.html">Koottali</a></li>
-          <li><a href="#">Contact</a></li>
-          <!-- <li><a href="#">Login</a></li> -->
-          <!-- <li><a href="#">Sign Up</a></li> -->
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <div class="main__landing container">
-      <div class="main__landing_desc">
-        <h1>
-          Introducing <span>Koottali</span>, our Innovative new Dating App.
-        </h1>
-        <p>
-          With Koottali<span>(English: Companion) </span>, we're
-          revolutionizing the way people connect and find love. Our app is
-          designed with a focus on meaningful connections, where we believe
-          that true compatibility goes beyond just swiping left or right on a
-          few photos.
-        </p>
-        <div class="main__landing_buttons" style="display: flex">
-          <button>
-            <img style="
-                  padding: 0.3rem;
-                  border-radius: 10px;
-                  width: 1.8rem;
-                  height: 1.8rem;
-                " src="/assets/images/google-play.svg" alt="" />
-            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.koottali.app&hl=en_IN&gl=US">
-              Google Play
-            </a>
-          </button>
-          <button>
-            <img style="
-                  padding: 0.3rem;
-                  border-radius: 10px;
-                  width: 1.8rem;
-                  height: 1.8rem;
-                " src="/assets/images/app-store.svg" alt="" />
-            <a target="_blank" href="https://apps.apple.com/us/app/koottali-connect-with-mallus/id6448742453">
-              App Store
-            </a>
-          </button>
-        </div>
-      </div>
-      <div class="main__landing_image">
-        <img src="assets/images/vector1.png" alt="" />
-      </div>
+<!-- Home Intro
+================================================== -->
+{% if page.url == "/" %} 
+<div class="rounded mb-5 hero">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="font-weight-bold mb-4 serif-font">Introducing Koottali, our Innovative new Indian Dating App.</h1>
+      <p class="lead mb-4">With Koottali(English: Companion) , we're revolutionizing the way people connect and find love. We believe that true compatibility goes beyond just swiping left or right on a few photos.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.koottali.app&hl=en_IN&gl=US" target="_blank" class="btn btn-dark text-white px-5 btn-lg mb-4" ><img src={{site.baseurl}}/assets/images/google-play.svg style="width: 20px;" alt=""> Play Store</a>
+        <a href="https://apps.apple.com/us/app/koottali-connect-with-mallus/id6448742453" target="_blank" class="btn btn-dark text-white px-5 btn-lg mb-4"><img src={{site.baseurl}}/assets/images/app-store.svg style="width: 20px;" alt=""> App Store</a>
     </div>
-    <div class="about_us_main container">
-      <div class="left">
-        <h1 class="title_font">About EmWAVE.</h1>
-      </div>
-      <div class="right">
-        <p>
-          At EmWave Technologies, we are dedicated to delivering high-quality
-          products and services that exceed our customers' expectations.
-          Koottali, the dating app for South Indian couples, are our first
-          offering. We have been committed to build applications that
-          facilitates connecting with individuals who share similar interests
-          and personalities. Our team is comprised of many talented
-          professionals who bring unique skills and expertise to the table.
-          With a focus on innovation and continuous improvement, we strive to
-          stay ahead of the curve in our industry. We believe in uniqueness,
-          velocity and veracity, and we apply these beliefs to everything we
-          do, from product design to customer support. Thank you for using our
-          products and services.
-        </p>
-        <div class="social">
-          <ul>
-            <li>
-              <a target="_blank" href="https://instagram.com/koottaliapp?igshid=Yjk4NWM2ZWVkMw=="><i
-                  class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            </li>
-            <li>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <div class="col-md-6 text-right pl-0 pl-lg-4">
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/3.svg">      
     </div>
-    <!-- // -->
+  </div>
+</div>
+{% endif %}
 
-    <div class="testimonials_main">
-      <div class="testimonials container">
-        <div class="left">
-          <h1 class="title_font">Testimonials.</h1>
-        </div>
-        <div class="right">
-          <div class="cards_scrollable">
-            <div class="card">
-              <h1>"I found my soulmate on this app, thank you!"</h1>
-              <p>-Sarah</p>
-            </div>
-            <div class="card">
-              <h1>
-                "I love the app's design and features, highly recommend."
-              </h1>
-              <p>-John</p>
-            </div>
-
-            <div class="card">
-              <h1>
-                "The quality of their work was excellent and was all delivered
-                on time."
-              </h1>
-              <p>-Alen</p>
-            </div>
-            <div class="card">
-              <h1>
-                "A very professional experience, great process, and really
-                friendly and committed team."
-              </h1>
-              <p>-Easo</p>
-            </div>
+<!-- Featured
+================================================== -->
+<section class="row">
+  {% for post in site.posts %}
+      {% if post.featured == true %}
+          <div class="col-md-4 mb-5">
+          {% include postbox.html %}
           </div>
-        </div>
+      {% endif %}
+  {% endfor %}
+  </div>
+</section>
+
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-6 mb-5">
+        {% include postbox.html %}
       </div>
+      {% endunless %}
+      {% endfor %}
     </div>
-
-    <!-- // -->
-
-    <div class="join_us container">
-      <div class="right">
-        <h1 class="title_font">Let's work together.</h1>
-        <p>
-          We are a high-performing group of like minded individuals
-          collaborating for success. We invite you to join us to achieve more
-          together. Join us to build a better future, hand in hand, uniting
-          our strengths for a common goal. "Together, we can do anything!"
-        </p>
-
-        <div class="join_us_button">
-          <a href="">Join our team</a>
-        </div>
-      </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
     </div>
-    <!-- <div class="extra_container"></div> -->
-  </main>
-  <footer class="container">
-    <p>&copy;EmWave Technologies Private Limited.</p>
-    <div class="links">
-      <ul>
-        <li>
-          <a href="">Support</a>
-        </li>
-        <li>
-          <a href="/koottali/faqs/index.html">FAQ</a>
-        </li>
-        <li>
-          <a href="/koottali/safety-tips/index.html">Safety</a>
-        </li>
-        <li>
-          <a href="/koottali/terms-conditions/index.html">T&C</a>
-        </li>
-        <li>
-          <a href="/koottali/EULA/index.html">EULA</a>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  <script>
-    hamburger = document.querySelector(".hamburger");
-    hamburger.onclick = function () {
-      navBar = document.querySelector(".nav-bar");
-      navBar.classList.toggle("active");
-    };
-  </script>
-</body>
-
-</html>
+  </div>
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</section>
