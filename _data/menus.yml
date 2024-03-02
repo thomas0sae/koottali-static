@@ -23,29 +23,6 @@ footermenu:
   - title: Home
     url: ""
 
-  - title: Koottali FAQs
-    url: "koottali/faqs"
-
-  - title: Neighar FAQs
-    url: "neighar/faqs"
-
-
-  - title: Koottali Privacy Policy
-    url: "koottali/privacy-policy/"
-
-  - title: Neighar Privacy Policy
-    url: "neighar/privacy-policy/"
-
-  - title: Koottali Safety Tips
-    url: "koottali/safety-tips/"
-
-  - title: Koottali Safety Tips
-    url: "koottali/terms-conditions/
-
-  - title: Koottali EULA
-    url: "koottali/EULA/
-
-
   # - title: Download
   #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
   #   external: true
