@@ -23,6 +23,9 @@ footermenu:
   - title: Home
     url: ""
 
+  - title: Koottali FAQs
+    url: "koottali/faqs"
+
   # - title: Download
   #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
   #   external: true
