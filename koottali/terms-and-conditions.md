@@ -5,7 +5,7 @@ permalink: /koottali/terms-conditions/
 comments: false
 ---
 
-Your use of the Koottali website (www.koottali.app) and mobile applications (iOS/Android) provided by Emwave Technologies Private Limited (referred to as "Emwave" or "we" or "us" or "our") is subject to these terms of use. It is important that you read them carefully. If you do not agree with any part of these terms or our privacy policy, please refrain from using the website or app, or any other service we provide. In these Terms and Conditions, the following words and phrases shall have the following meanings:
+Your use of the Koottali website (https://koottali.com) and mobile applications (iOS/Android) provided by Emwave Technologies Private Limited (referred to as "Emwave" or "we" or "us" or "our") is subject to these terms of use. It is important that you read them carefully. If you do not agree with any part of these terms or our privacy policy, please refrain from using the website or app, or any other service we provide. In these Terms and Conditions, the following words and phrases shall have the following meanings:
 "App" refers to the mobile application named Koottali available for download on [iOS/Android].
 "Service" refers to all features, functions, and services offered by the App.
 "User" refers to any person who downloads, installs, or uses the App.

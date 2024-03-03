@@ -5,7 +5,7 @@ permalink: /koottali/EULA/
 comments: false
 ---
 
-Last updated May 19, 2023
+Last updated March 1, 2024
 
 Welcome to Koottali’s End User License Agreement. This is a contract between you and Emwave Technologies (as defined further below) and we want you to know yours and our rights before you use the Koottali website or application (“Koottali” or the “App” or "Licensed Application"). Please take a few moments to read these Terms before enjoying the App, because once you access, view or use the App, you are going to be legally bound by these Terms (so probably best to read them first!).
 
