@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-permalink: /koottali/privacy-policy/
+permalink: privacy-policy/
 comments: false
 ---
 
