@@ -4,7 +4,7 @@ timezone: UTC
 url: https://emwavetech.com
 baseurl: "/"
 permalink: "/:title/"
-logo: "assets/images/logo.png"
+logo: "assets/images/main.svg"
 favicon: "assets/images/ktnew.svg"
 author: emwavetech
 paginate: 30
