@@ -23,6 +23,18 @@ Sometimes we need your consent to process Personal Data, such as for sending you
 - Process your bio and other textual content added to your profile
 - Process your geolocation
 - Offer you services mentioned in this Privacy Policy that require an act of consent from you
+- Communicate with You in accordance with applicable laws
+- Provide services to you, such as creating, updating and managing your account
+- Verify your identity
+- Provide recommendation on matching profiles and other services
+- Respond to your inquiries and comments
+- Prevent fraud and abuse of the Service
+- Protect other users of the Service, and Our business, against security breaches
+- Understand our user base and effectiveness of the service
+- Administer, operate and improve the services and for internal business purposes
+- Compile aggregated data, perform statistical analyses and otherwise analyse our business for internal and external business purposes
+- Comply with legal and governmental requirements
+- Fulfill any other purpose for which you provide it, or for which you provide express consent
 
 You have the right to withdraw your consent at any time for processing your location, however, this will not affect any of the prior processing of your Personal Data.
 
