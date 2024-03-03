@@ -26,6 +26,9 @@ footermenu:
   - title: Koottali FAQs
     url: "koottali/faqs"
 
+  - title: Koottali Privacy Policy
+    url: "koottali/privacy-policy/"
+
   # - title: Download
   #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
   #   external: true
