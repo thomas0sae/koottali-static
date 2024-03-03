@@ -29,6 +29,13 @@ footermenu:
   - title: Koottali Privacy Policy
     url: "koottali/privacy-policy/"
 
+  - title: Koottali T & C
+    url: "koottali/terms-conditions/"
+
+  - title: Koottali EULA
+    url: "koottali/EULA/"
+
+
   # - title: Download
   #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
   #   external: true

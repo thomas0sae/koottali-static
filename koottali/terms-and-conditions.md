@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Terms and Conditions
-permalink: /tnc/
+title: Koottali Terms and Conditions
+permalink: /koottali/terms-conditions/
 comments: false
 ---
 

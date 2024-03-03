@@ -1,7 +1,7 @@
 ---
 layout: page
 title: END USER LICENSE AGREEMENT
-permalink: /EULA/
+permalink: /koottali/EULA/
 comments: false
 ---
 
