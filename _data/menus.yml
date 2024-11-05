@@ -7,7 +7,7 @@ topmenu:
     url: "about/"
 
   - title: NRI Meet
-    url: "nrimeet/"
+    url: "koottali/"
 
   - title: Neighar
     url: "neighar/"
@@ -24,7 +24,7 @@ footermenu:
     url: ""
 
   - title: NRI Meet FAQs
-    url: "nrimeet/faqs"
+    url: "koottali/faqs"
 
   - title: NRI Meet Privacy Policy
     url: "nrimeet/privacy-policy/"
