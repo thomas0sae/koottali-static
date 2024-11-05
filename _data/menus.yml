@@ -6,8 +6,8 @@ topmenu:
   - title: About
     url: "about/"
 
-  - title: Koottali
-    url: "koottali/"
+  - title: NRI Meet
+    url: "nrimeet/"
 
   - title: Neighar
     url: "neighar/"
@@ -23,17 +23,17 @@ footermenu:
   - title: Home
     url: ""
 
-  - title: Koottali FAQs
-    url: "koottali/faqs"
+  - title: NRI Meet FAQs
+    url: "nrimeet/faqs"
 
-  - title: Koottali Privacy Policy
-    url: "koottali/privacy-policy/"
+  - title: NRI Meet Privacy Policy
+    url: "nrimeet/privacy-policy/"
 
-  - title: Koottali T & C
-    url: "koottali/terms-conditions/"
+  - title: NRI Meet T & C
+    url: "nrimeet/terms-conditions/"
 
-  - title: Koottali EULA
-    url: "koottali/EULA/"
+  - title: NRI Meet EULA
+    url: "nrimeet/EULA/"
 
 
   # - title: Download
