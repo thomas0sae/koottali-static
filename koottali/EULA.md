@@ -104,7 +104,7 @@ impersonates any other person, including falsely stating your name.
 NRI Meet Group operates a zero-tolerance policy for this kind of content.
 
 5. USE OF DATA
-   You acknowledge that Licensor will be able to access and adjust Your downloaded Licensed Application content and Your personal information, and that Licensor's use of such material and information is subject to Your legal agreements with Licensor and Licensor's privacy policy: https://emwavetech.com/nrimeet/privacy-policy/index.html .
+   You acknowledge that Licensor will be able to access and adjust Your downloaded Licensed Application content and Your personal information, and that Licensor's use of such material and information is subject to Your legal agreements with Licensor and Licensor's privacy policy: https://emwavetech.com/koottali/privacy-policy/index.html .
 
 You acknowledge that the Licensor may periodically collect and use technical data and related information about your device, system, and application software, and peripherals, offer product support, facilitate the software updates, and for purposes of providing other services to you (if any) related to the Licensed Application. Licensor may also use this information to improve its products or to provide services or technologies to you, as long as it is in a form that does not personally identify you.
 

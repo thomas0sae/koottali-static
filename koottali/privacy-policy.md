@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NRI Meet Privacy Policy
-permalink: /nrimeet/privacy-policy/
+permalink: /koottali/privacy-policy/
 comments: false
 ---
 
