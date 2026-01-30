@@ -12,6 +12,9 @@ topmenu:
   - title: Neighar
     url: "neighar/"
 
+  - title: Pockio
+    url: "pockio/"
+
 
 # - title: Get this theme
 #   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
@@ -34,6 +37,18 @@ footermenu:
 
   - title: NRI Meet EULA
     url: "nrimeet/EULA/"
+
+  - title: Pockio FAQs
+    url: "pockio/faqs"
+
+  - title: Pockio Privacy Policy
+    url: "pockio/privacy-policy/"
+
+  - title: Pockio T & C
+    url: "pockio/terms-conditions/"
+
+  - title: Pockio EULA
+    url: "pockio/EULA/"
 
 
   # - title: Download
